@@ -6,12 +6,12 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
-from PandasMD.Coordination import coordination_labels, mode_coordination_labels, occupancy_populations_pertraj
-from PandasMD.Coordination import OPLS_mode_coordination_labels
-from PandasMD.Plot import plot_orderings
+from ChannelAnalysis2.Coordination import coordination_labels, mode_coordination_labels, occupancy_populations_pertraj
+from ChannelAnalysis2.Coordination import OPLS_mode_coordination_labels
+from ChannelAnalysis2.Plot import plot_orderings
 import matplotlib.pyplot as plt
 import operator
 

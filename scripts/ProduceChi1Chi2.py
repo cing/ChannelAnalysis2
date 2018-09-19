@@ -11,11 +11,11 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 from collections import defaultdict
 from itertools import chain, repeat, islice, groupby
-from PandasMD.Coordination import dunking_labels, mean_2d_pmf
-from PandasMD.Plot import plot_2d_pmfs
+from ChannelAnalysis2.Coordination import dunking_labels, mean_2d_pmf
+from ChannelAnalysis2.Plot import plot_2d_pmfs
 import matplotlib.pyplot as plt
 
 def prune_time(df, start, end):

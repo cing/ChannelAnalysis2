@@ -6,13 +6,13 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
-from PandasMD.Coordination import mean_2d_pmf
-from PandasMD.Plot import plot_macrostate_2d_pmfs
+from ChannelAnalysis2.Coordination import mean_2d_pmf
+from ChannelAnalysis2.Plot import plot_macrostate_2d_pmfs
 from matplotlib import gridspec
-from PandasMD.Coordination import macrostate_labels, macrostate_occupancy_ts
+from ChannelAnalysis2.Coordination import macrostate_labels, macrostate_occupancy_ts
 import matplotlib.pyplot as plt
 
 def prune_time(df, start, end):
@@ -58,8 +58,8 @@ if __name__ == '__main__':
 
     # Do you want the single-ion PMF?
     if False:
-        from PandasMD.Coordination import mean_axial_pmf
-        from PandasMD.Plot import plot_pmf
+        from ChannelAnalysis2.Coordination import mean_axial_pmf
+        from ChannelAnalysis2.Plot import plot_pmf
         fig, ax = plt.subplots()
         pmf = mean_axial_pmf(coord_df2_order1[["Red","TrajNum"]], min_binval=2,
                               axis_column=["Red"], histrange=[-10,10], left_shift=False)

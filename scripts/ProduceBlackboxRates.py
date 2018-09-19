@@ -6,12 +6,12 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
 #from Transitions import mean_unique_macrostate_transition_counts
-from PandasMD.Transitions import mode_coordstate_transitions_per_trajres
-from PandasMD.Coordination import coordination_labels, mode_coordination_labels
+from ChannelAnalysis2.Transitions import mode_coordstate_transitions_per_trajres
+from ChannelAnalysis2.Coordination import coordination_labels, mode_coordination_labels
 import matplotlib.pyplot as plt
 
 def window(seq, n=2):

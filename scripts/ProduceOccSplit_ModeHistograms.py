@@ -6,14 +6,14 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
-from PandasMD.Coordination import coordination_labels, mode_coordination_labels
-from PandasMD.Coordination import OPLS_mode_coordination_labels
-from PandasMD.Plot import plot_mode_histogram
-from PandasMD.Transitions import macrostate_transitions_per_traj
-from PandasMD.Coordination import macrostate_labels, macrostate_occupancy_ts
+from ChannelAnalysis2.Coordination import coordination_labels, mode_coordination_labels
+from ChannelAnalysis2.Coordination import OPLS_mode_coordination_labels
+from ChannelAnalysis2.Plot import plot_mode_histogram
+from ChannelAnalysis2.Transitions import macrostate_transitions_per_traj
+from ChannelAnalysis2.Coordination import macrostate_labels, macrostate_occupancy_ts
 import matplotlib.pyplot as plt
 import matplotlib.style
 import matplotlib as mpl

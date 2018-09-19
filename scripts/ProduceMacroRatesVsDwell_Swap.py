@@ -6,12 +6,12 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
 #from Transitions import mean_unique_macrostate_transition_counts
-from PandasMD.Transitions import macrostate_transitions_per_traj
-from PandasMD.Coordination import macrostate_labels, ordering_labels
+from ChannelAnalysis2.Transitions import macrostate_transitions_per_traj
+from ChannelAnalysis2.Coordination import macrostate_labels, ordering_labels
 import matplotlib.pyplot as plt
 import ast
 

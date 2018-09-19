@@ -6,12 +6,12 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
 #from Transitions import mean_unique_macrostate_transition_counts
-from PandasMD.Transitions import macrostate_transitions_per_traj
-from PandasMD.Coordination import macrostate_labels
+from ChannelAnalysis2.Transitions import macrostate_transitions_per_traj
+from ChannelAnalysis2.Coordination import macrostate_labels
 import matplotlib.pyplot as plt
 
 def window(seq, n=2):
@@ -113,7 +113,8 @@ if __name__ == '__main__':
     print(macrostate_size)
     print(macrostate_percent)
 
-    beforeafter=pd.Series(ggstats.index).str.split("-", return_type="frame")
+    #beforeafter=pd.Series(ggstats.index).str.split("-", return_type="frame") #Deprecated in Pandas 0.16
+    beforeafter=pd.Series(ggstats.index).str.split("-", expand=True) #Supported in Pandas 0.16
     beforeafter.columns=["OccMacrostate","NextOccMacrostate"]
     ggstats_beforeafter=ggstats.reset_index().join(beforeafter)
     ggstats_macro=ggstats_beforeafter[["Transition","Mean","SEM","OccMacrostate"]].set_index("OccMacrostate")

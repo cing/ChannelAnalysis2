@@ -6,10 +6,10 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
-from PandasMD.Plot import plot_avgcoord_histogram
+from ChannelAnalysis2.Plot import plot_avgcoord_histogram
 import matplotlib.pyplot as plt
 
 def window(seq, n=2):

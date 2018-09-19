@@ -11,12 +11,12 @@ from __future__ import print_function, division, absolute_import
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
-from PandasMD.Initialize import Project
+from ChannelAnalysis2.Initialize import Project
 import itertools
 from collections import defaultdict
-from PandasMD.Coordination import coordination_labels, OPLS_mode_coordination_labels, occupancy_populations_pertraj, mode_coordination_labels
-from PandasMD.Coordination import dunking_labels
-from PandasMD.Plot import plot_mode_occbarchart
+from ChannelAnalysis2.Coordination import coordination_labels, OPLS_mode_coordination_labels, occupancy_populations_pertraj, mode_coordination_labels
+from ChannelAnalysis2.Coordination import dunking_labels
+from ChannelAnalysis2.Plot import plot_mode_occbarchart
 import matplotlib.pyplot as plt
 
 def prune_time(df, start, end):
