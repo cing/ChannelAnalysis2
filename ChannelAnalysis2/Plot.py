@@ -1007,7 +1007,7 @@ def plot_ts_by_resid_with_trans(ax, df, trans=None, trans_columns=None,
     # how many states there are in this trajectory.
     if state_colors != None:
         unique_state_colors = state_colors
-    elif (trans != None and trans_columns != None):
+    elif (trans is not None and trans_columns is not None):
         unique_state_list = np.unique(trans[trans_columns].unstack().values)
         cmap = get_cmap(len(unique_state_list))
         unique_state_colors = {state: cmap(ind) for ind, state in enumerate(unique_state_list)}
