@@ -1,0 +1,68 @@
+- Loaded: 1st Shell Na+ SF Coordination Extended
+- Loaded: 1st Shell Na+ SF Coordination
+- Loaded: 2nd Shell Na+ SF Coordination
+- Loaded: 1st Shell Na+ SF Oxy Coordination
+- Loaded: S178 Oxygen Coordinates
+- Loaded: E177 Oxygen1 Coordinates
+- Loaded: E177 Oxygen2 Coordinates
+- Loaded: L176 Oxygen Coordinates
+- Loaded: T175 Oxygen Coordinates
+- Loaded: E177 Chi1-Chi2 Dihedral Angles
+- Loaded: E177 CA Coordinates from S5
+- Loaded: E177 CA Coordinates
+- Loaded: E177-Ion Link
+Successfully Loaded CHARMM Project: NavAb Pore Domain NNNN CHARMM NONB WT 150mM NaCl
+We will loop over: [['1st Shell Na+ SF Coordination', '2nd Shell Na+ SF Coordination']]
+Dunk
+       Mean  SEM
+0  0.041928  NaN
+1  0.622856  NaN
+2  0.309852  NaN
+3  0.024752  NaN
+4  0.000612  NaN
+1.31926307616 nan
+Series: 0, Mode: CHAN = 2.04663419684 nan
+         Mean  SEM
+Occ               
+1.0  0.000071  NaN
+2.0  0.953225  NaN
+3.0  0.046705  NaN
+Series: 0, Mode: SF = 1.9442366062 nan
+         Mean  SEM
+Occ               
+1.0  0.060893  NaN
+2.0  0.933978  NaN
+3.0  0.005129  NaN
+Series: 0, Mode: EC = 0.00197642408414 nan
+         Mean  SEM
+Occ               
+0.0  0.998024  NaN
+1.0  0.001976  NaN
+Series: 0, Mode: S = 0.00204701065857 nan
+         Mean  SEM
+Occ               
+0.0  0.997953  NaN
+1.0  0.002047  NaN
+Series: 0, Mode: E = 0.72546528317 nan
+         Mean  SEM
+Occ               
+0.0  0.279617  NaN
+1.0  0.715301  NaN
+2.0  0.005082  NaN
+Series: 0, Mode: EL = 0.880967506647 nan
+         Mean  SEM
+Occ               
+0.0  0.277946  NaN
+1.0  0.563846  NaN
+2.0  0.157502  NaN
+3.0  0.000706  NaN
+Series: 0, Mode: LT = 0.335756805722 nan
+         Mean  SEM
+Occ               
+0.0  0.664243  NaN
+1.0  0.335757  NaN
+Series: 0, Mode: CC = 0.100421166561 nan
+         Mean  SEM
+Occ               
+0.0  0.899579  NaN
+1.0  0.100421  NaN
