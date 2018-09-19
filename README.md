@@ -29,3 +29,12 @@ principle channel axis. This package depends strongly on the pandas package, loa
 data into dataframes that are exposed as members of the Project class.
 
 Warning: this is not tested and may not work with newer versions of Pandas!
+
+## Installation
+
+Code was last tested using numpy 1.13.1, matplotlib 2.0.2, pandas 0.20.3.
+
+To install:
+```
+python setup.py install
+```
